@@ -1,0 +1,67 @@
+body{
+    background-color: #b1ffd3;
+}
+
+titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#tabla-container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    border: 2px solid #0f0638; /* Borde del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#tabla-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/* Es para modificar el contorno de la tabla interior. */ 
+#tabla-container td, #tabla-container th {
+    border: 1px solid #0c0c0cb2;
+    text-align: left;
+    padding: 8px;
+}
+/* Es para modificar el color de las filas. */ 
+#tabla-container tr:nth-child(even) {
+    background-color: #8c2ffe;
+}
+
+#tabla-container th {
+    background-color: #e484ff;
+    color: white;
+}
+
+#botones-container {
+    width: 100%; /* Ancho del contenedor */
+    text-align: center; /* Centrar los botones horizontalmente */
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+#botones-container button {
+    padding: 10px 20px;
+    background-color: #180570;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px; /* Espacio entre los botones */
+}
+
+#botones-container button:hover {
+    background-color: #a6e909; /* Color de fondo al pasar el mouse */
+}
+
+
