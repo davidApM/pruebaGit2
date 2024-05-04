@@ -1,0 +1,100 @@
+/* Estilos para el contenedor de la tabla */
+#tabla-container {
+    max-width: 800px;
+    margin: 20px auto; /* Agrega un espacio en la parte superior e inferior */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Estilos para la tabla */
+#miTabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#miTabla th, #miTabla td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#miTabla th {
+    background-color: #f2f2f2;
+}
+
+#miTabla tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el contenedor del formulario */
+#formulario-container {
+    max-width: 400px;
+    margin: 20px auto; /* Agrega un espacio en la parte superior e inferior */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Estilos para el formulario */
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formulario button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formulario button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el botón de agregar */
+#agregarBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#agregarBtn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el botón de modificar */
+#miTabla button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#miTabla button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los botones de acción */
+#miTabla button {
+    margin-right: 5px; /* Agrega un espacio a la derecha de cada botón */
+}
+

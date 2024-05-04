@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinámica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tabla-container">
+        <table id="miTabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Correo Electrónico</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán las filas dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+
+<div id="formulario-container">
+    <!-- Formulario para agregar nuevos elementos -->
+<form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="telefono" placeholder="Teléfono">
+    <input type="text" id="email" placeholder="Correo Electrónico">
+    <button type="button" onclick="agregarElemento()">Agregar</button>
+</form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
